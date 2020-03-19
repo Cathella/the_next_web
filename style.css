@@ -6,9 +6,12 @@
 
 .big-article {
     background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/government-uk-regulations-e-scooter-escooter-e-scooter-bike-rideshare-last-mile-796x448.jpg);
-    width: 100%;
-    padding: 7% 1% 1% 1%;
+    background-size: cover;
+    background-position: 0 50%;
+    padding: 10% 1% 1% 2.5%;
     color: #fff;
+    margin: 0 2% 2% 2%;
+
 }
 
 .big-article p {
@@ -16,15 +19,115 @@
 }
 
 .big-article h1 {
-    font-size: 1.5em;
+    font-size: 1.3em;
 }
 
 .big-article ul {
     display: flex;
     align-items: center;
+    font-size: 14px;
+    font-family: 'ARS Maquette','Helvetica Neue';
+    color: rgba(255, 255,255, 0.6);
+      
+}
+
+.big-article ul a{
+    font-family: 'ARS Maquette','Helvetica Neue';
+    color: rgba(255, 255,255, 0.6);
+    text-decoration: none;
+
 }
 
 .big-article li {
     list-style: none;
-    margin-right: 1%;
+    margin-right: 2%;
+}
+
+.second-article{
+    
+    background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/iPad-Pro-796x418.jpg) no-repeat;
+    background-size: cover;
+    background-position: 0 50%;
+    padding: 17% 1% 1% 2.5%;
+    color: #fff;
+    opacity: 0.9;
+    margin: 2% 2% 2% 2%;
+}
+
+.second-article ul {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-family: 'ARS Maquette','Helvetica Neue';
+    color: rgba(255, 255,255, 0.6);
+}
+
+.second-article ul a{
+    font-family: 'ARS Maquette','Helvetica Neue';
+    color: rgba(255, 255,255, 0.6);
+    text-decoration: none;
+}
+
+.second-article li {
+    list-style: none;
+    margin-right: 2%;
+}
+
+
+.second-article p a{
+    text-transform: uppercase;
+    margin-top: 1em;
+    color: #fff;
+    text-decoration: none;   
+    
+}
+
+.second-article h2 {
+    font-size: 1.3em;
+    
+}
+
+
+.third-article{
+    background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/waymo-self-driving-america-sad-concerned-worried-dont-like-aaa-survey-796x448.jpg);
+    background-size: cover;
+    background-position: 0 50%;
+    padding: 14% 1% 1% 2.5%;
+    color: #fff;
+    margin: 2% 2% 2% 2%;
+    
+    
+}
+
+.third-article ul {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-family: 'ARS Maquette','Helvetica Neue';
+    color: rgba(255, 255,255, 0.6);
+}
+
+.third-article ul a{
+    font-family: 'ARS Maquette','Helvetica Neue';
+    color: rgba(255, 255,255, 0.6);
+    text-decoration: none;
+}
+
+.third-article li {
+    list-style: none;
+    margin-right: 2%;
+}
+
+
+.third-article p a{
+    text-transform: uppercase;
+    margin-top: 1em;
+    color: #fff;
+    text-decoration: none;   
+    
+}
+
+.third-article h2 {
+    font-size: 1.3em;
+    
 }
