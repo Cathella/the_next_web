@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     font-family: 'Work Sans', sans-serif;
+    overflow-x: hidden;
 }
 
 .big-article {
@@ -131,3 +132,169 @@
     font-size: 1.3em;
     
 }
+
+.latest-news h2 a{
+    color: #f42;
+    font-size: 28px;
+    text-decoration: none;
+    margin:0 0 0 2% ;
+}
+
+.latest-news h2 a:hover{
+    color: #000;
+}
+
+.latest-news .news-elements{
+    display: flex;
+
+}
+
+ul.add-margin{
+    margin-top: 1em;
+}
+
+.latest-image{
+    width: 20%;
+    margin: 2% 0 2% 2%;
+    
+}
+
+.latest-image img{
+    width:100%; 
+    height:70px;
+
+}
+
+.news-details{
+    margin: 2% 0 0 2%;
+}
+
+.news-details h4 a{
+    font-size: 1em;
+    font-family: 'ARS Maquette','Helvetica Neue';
+    color:#000;
+    text-decoration: none;
+}
+
+.news-details h4 a:hover{
+    color: #FF4422;
+    text-decoration: underline;
+}
+
+.news-details ul{
+    display: flex;
+    margin-top: 5px;
+}
+
+.news-details ul li{
+    font-size: 12px;
+    color: #AAA;
+    font-family: 'ARS Maquette','Helvetica Neue';
+    margin-right: 3px;
+}
+
+.news-details li a{
+    font-size: 12px;
+    color: #AAA;
+    font-family: 'ARS Maquette','Helvetica Neue';
+    text-decoration: none;
+}
+
+.funding-nav i{
+    margin: 3% 0 0 2%;
+    font-size: 20px;
+    
+}
+
+.funding-nav h2 a{
+    color: #f42;
+    font-size: 28px;
+    text-decoration: none;
+    margin:0 0 0 2% ;
+}
+
+.funding-info{
+    margin: 0 2% 6% 2%;
+}
+
+.funding-info li{
+    padding: 0.9em 0 0;   
+ }
+ 
+
+.funding-info li a{
+   margin: 0.7em 1.4em 0 0; 
+   color: #F42;
+   text-decoration: none;
+   font-size: 0.9em;
+   padding: 0.9em 0 0;   
+}
+
+.funding-elements{
+    position: relative;
+    margin:2% 2% 2% 5%;
+
+}
+
+.funding-elements img{
+    position: absolute;
+    top: 0.7em; 
+    left: 0.6em; 
+    width:60px;
+    height:60px;
+}
+
+.company-name{
+    background-color:#F42;
+    padding: 0.7em 1em 0.7em 5.3em;
+}
+
+.company-name h3{
+    color: #fff;
+}
+
+.fund-amount{
+    background-color:#FFEBE8;
+    padding: 0.7em 1em 0.7em 5.3em;
+}
+
+.fund-data{
+    background-color:#FFFAF8; 
+    padding: 18px 15px 22px 15px;
+    border-bottom: 2px solid#FFEBE8;
+}
+
+.fund-amount .p1{
+    font-size: 18px;
+    color: #000;
+}
+
+.fund-amount .p2{
+    font-size: 11px;
+    font-family: 'shentox','sans-serif';
+    color: #000;
+}
+
+.investment{
+    background-color:#FFFAF8;
+    padding: 8px 15px 8px 15px;
+}
+
+.investment p{
+    font-size-adjust: 12px;
+    color: #555;
+}
+.investment span{
+    color: #AAA;
+}
+
+.fund-data p{
+    font-size: 13px;
+    color: #555;
+    padding-bottom: 5px;
+}
+
+.fund-data i{
+    margin-right: 5px;
+}
+
