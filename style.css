@@ -84,10 +84,8 @@
 }
 
 .second-article h2 {
-    font-size: 1.3em;
-    
+    font-size: 1.3em; 
 }
-
 
 .third-article{
     background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/waymo-self-driving-america-sad-concerned-worried-dont-like-aaa-survey-796x448.jpg);
@@ -133,7 +131,8 @@
     
 }
 
-.latest-news h2 a{
+.latest-news h2 a,
+.latest-other h2 a {
     color: #f42;
     font-size: 28px;
     text-decoration: none;
@@ -153,7 +152,7 @@ ul.add-margin{
     margin-top: 1em;
 }
 
-.latest-image{
+.latest-image {
     width: 20%;
     margin: 2% 0 2% 2%;
     
@@ -232,7 +231,7 @@ ul.add-margin{
 
 .funding-elements{
     position: relative;
-    margin:2% 2% 2% 5%;
+    margin:2%;
 
 }
 
@@ -294,7 +293,104 @@ ul.add-margin{
     padding-bottom: 5px;
 }
 
-.fund-data i{
+.fund-data i {
     margin-right: 5px;
 }
 
+.latest-other {
+    margin: 12% 2% 0 2%;
+}
+
+.latest-other h2 {
+    margin: 2% 5% 2% 0%;;
+}
+
+.latest-other h2 i {
+    font-size: .6em;
+}
+
+.article-1-list {
+    position: relative;
+    padding: 40% 4% 4% 4%;
+    background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/02/bill-gates-368x276.jpg);
+    background-size: cover;
+    width: 100%;
+}
+
+.article-1-list article {
+    bottom: 0;
+    color: #fff;
+}
+
+.article-1-list p {
+    text-transform: uppercase;
+    margin-bottom: 1.5%;
+    font-size: .8em;
+}
+
+.article-1-list h3 {
+    margin-bottom: 2%;
+}
+
+.article-1-list h3 a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.article-1-list ul {
+    display: flex;
+    align-items: center;
+}
+
+.article-1-list li {
+    margin-right: 1%;
+    font-size: .8em;
+    color: rgba(255, 255,255, 0.6);
+}
+
+.article-1-list li a {
+    color: rgba(255, 255,255, 0.6);
+    text-decoration: none;
+}
+
+.article-2-list article {
+    display: flex;
+    background: #fff4f2;
+}
+
+.article-2-list article > div {
+    width: 75%;
+}
+
+.article-2-list h5 {
+    text-transform: uppercase;
+    font-weight: normal;
+    margin: 4% 3% 2% 3%;
+    color: #f42;
+}
+
+.article-2-list h4 {
+    margin: 0 3% 6% 3%;
+}
+
+.article-2-list h4 a {
+    text-decoration: none;
+    color: #f42;
+}
+
+#article-image {
+    background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/10/slack.jpg);
+    width: 25%;
+    background-size: cover;
+}
+
+.list-normal {
+    border-bottom: 1px solid #eee;
+    padding: 2%;
+    font-size: .9em;
+}
+
+.list-normal a {
+    text-decoration: none;
+    color: #555;
+}
