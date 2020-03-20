@@ -22,6 +22,19 @@ nav {
     display: none;
 }
 
+.question-link {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background-color: #ffdd33;
+}
+
+.question-link a {
+    color: #000;
+    font-size: .83em;
+    text-decoration: none;
+}
+
 .big-article {
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/government-uk-regulations-e-scooter-escooter-e-scooter-bike-rideshare-last-mile-796x448.jpg);
     background-size: cover;
