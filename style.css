@@ -458,3 +458,22 @@ footer {
     color: rgba(255, 255,255, 0.6);
     text-decoration: none;
 }
+
+.bottom-footer ul {
+    /* display: flex; */
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;
+    width: 60%;
+    margin: 7% auto;
+    text-align: center;
+    font-size: .83em;
+}
+
+.bottom-footer img {
+    height: .7em;
+}
+
+.bottom-footer li {
+    margin-top: 1em;
+}
