@@ -91,13 +91,15 @@ ul {
     margin: 0% 2% 2% 2%; 
 }
 
-.latest-news {
+.latest-news,
+.latest-deals {
     margin-top: 12%;
 }
 
 .latest-news h2,
 .latest-other h2,
-.funding-nav h2 {
+.funding-nav h2,
+.latest-deals h2 {
     text-decoration: none;
     margin: 0 0 0 2% ;
     letter-spacing: -0.06em;
@@ -106,7 +108,8 @@ ul {
 
 .latest-news h2 a,
 .latest-other h2 a,
-.funding-nav h2 a {
+.funding-nav h2 a,
+.latest-deals h2 a {
     color: #f42;
     font-size: 1.3em;
     text-decoration: none;
@@ -114,13 +117,15 @@ ul {
 
 .latest-news h2 a:hover,
 .latest-other h2 a:hover, 
-.funding-nav h2 a:hover {
+.funding-nav h2 a:hover,
+.latest-deals h2 a:hover {
     color: #000;
 }
 
 .latest-news h2 i,
 .funding-nav h2 i,
-.latest-other h2 i {
+.latest-other h2 i,
+.latest-deals h2 i {
     font-size: .5em;
 }
 
@@ -356,4 +361,17 @@ ul.add-margin{
 .list-normal a {
     text-decoration: none;
     color: #555;
+}
+
+.deal {
+    display: flex;
+    margin-top: 2%;
+}
+
+.deal > a {
+    background: url(https://cdnp3.stackassets.com/f54c9185d68a19989ac1618bb5f955852e40ea0e/store/988cf18b55dc05a3eca624beef4de98a661b6f75463223a0c57759f988b1/sale_23318_primary_image.jpg);
+    background-size: cover;
+    width: 20%;
+    height: 5.5em;
+    margin-right: 1%;
 }
