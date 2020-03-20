@@ -17,6 +17,11 @@ ul {
     font-family: 'Roboto', sans-serif;
 }
 
+.logo-time,
+nav {
+    display: none;
+}
+
 .big-article {
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/government-uk-regulations-e-scooter-escooter-e-scooter-bike-rideshare-last-mile-796x448.jpg);
     background-size: cover;
@@ -380,7 +385,8 @@ ul.add-margin{
 
 .deal > a {
     background: url(https://cdnp3.stackassets.com/f54c9185d68a19989ac1618bb5f955852e40ea0e/store/988cf18b55dc05a3eca624beef4de98a661b6f75463223a0c57759f988b1/sale_23318_primary_image.jpg);
-    background-size: cover;
+    background-size: 100% 100%;
+    background-position: center center;
     width: 20%;
     height: 5.5em;
     margin-right: 1%;
@@ -412,6 +418,7 @@ footer {
 
 .top-footer {
     background-color: #131313;
+    opacity: .9;
     padding-bottom: 7%;
 }
 
@@ -423,8 +430,9 @@ footer {
 .social {
     display: flex;
     list-style: none;
-    width: 60%;
+    width: 50%;
     margin: 5% auto;
+    justify-content: space-between;
 }
 
 .social li {
@@ -443,13 +451,12 @@ footer {
 .sub-social {
     display: flex;
     list-style: none;
-    width: 55%;
+    width: 45%;
     margin: 0 auto;
+    justify-content: space-between;
 }
 
 .sub-social li {
-    margin-left: 2%;
-    margin-right: 2%;
     text-transform: uppercase;
     font-size: .83em;
 }
@@ -460,7 +467,6 @@ footer {
 }
 
 .bottom-footer ul {
-    /* display: flex; */
     align-items: center;
     flex-wrap: wrap;
     list-style: none;
