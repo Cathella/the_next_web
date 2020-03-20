@@ -1,18 +1,28 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: 'Work Sans', sans-serif;
     overflow-x: hidden;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Sen', sans-serif;
+}
+
+body {
+    font-family: 'Work Sans', sans-serif;
+}
+
 .big-article {
-    background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/government-uk-regulations-e-scooter-escooter-e-scooter-bike-rideshare-last-mile-796x448.jpg);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/government-uk-regulations-e-scooter-escooter-e-scooter-bike-rideshare-last-mile-796x448.jpg);
     background-size: cover;
     background-position: 0 50%;
     padding: 10% 1% 1% 2.5%;
     color: #fff;
     margin: 0 2% 2% 2%;
-
 }
 
 .big-article p {
@@ -45,14 +55,12 @@
 }
 
 .second-article{
-    
-    background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/iPad-Pro-796x418.jpg) no-repeat;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/iPad-Pro-796x418.jpg) no-repeat;
     background-size: cover;
     background-position: 0 50%;
-    padding: 17% 1% 1% 2.5%;
+    padding: 12% 1% 1% 2.5%;
     color: #fff;
-    opacity: 0.9;
-    margin: 2% 2% 2% 2%;
+    margin: 0 2% 2% 2%;
 }
 
 .second-article ul {
@@ -88,14 +96,12 @@
 }
 
 .third-article{
-    background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/waymo-self-driving-america-sad-concerned-worried-dont-like-aaa-survey-796x448.jpg);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/waymo-self-driving-america-sad-concerned-worried-dont-like-aaa-survey-796x448.jpg);
     background-size: cover;
     background-position: 0 50%;
-    padding: 14% 1% 1% 2.5%;
+    padding: 12% 1% 1% 2.5%;
     color: #fff;
-    margin: 2% 2% 2% 2%;
-    
-    
+    margin: 0% 2% 2% 2%; 
 }
 
 .third-article ul {
@@ -205,7 +211,7 @@ ul.add-margin{
     
 }
 
-.funding-nav h2 a{
+.funding-nav h2 a {
     color: #f42;
     font-size: 28px;
     text-decoration: none;
