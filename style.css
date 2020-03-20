@@ -141,18 +141,9 @@ ul.add-margin{
     margin-top: 1em;
 }
 
-.latest-image-1 {
-    background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Coronavirus-516x270.jpg);
-    background-size: cover;
-    width: 5em;
-    height:5em;
+.latest-image {
+    width: 20%;
     margin: 2% 0 2% 2%;
-<<<<<<< HEAD
-    box-sizing: border-box;
-    
-}
-
-=======
 }
 
 .latest-image img {
@@ -160,7 +151,6 @@ ul.add-margin{
     height:70px;
 
 }
->>>>>>> 40fd425edb10684ac3b3668351cfc2ccac73942f
 
 .news-details{
     margin: 2% 0 0 2%;
@@ -467,4 +457,23 @@ footer {
 .sub-social a {
     color: rgba(255, 255,255, 0.6);
     text-decoration: none;
+}
+
+.bottom-footer ul {
+    /* display: flex; */
+    align-items: center;
+    flex-wrap: wrap;
+    list-style: none;
+    width: 60%;
+    margin: 7% auto;
+    text-align: center;
+    font-size: .83em;
+}
+
+.bottom-footer img {
+    height: .7em;
+}
+
+.bottom-footer li {
+    margin-top: 1em;
 }
