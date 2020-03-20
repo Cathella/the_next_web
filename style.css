@@ -156,13 +156,15 @@ ul.add-margin{
     margin: 2% 0 0 2%;
 }
 
-.news-details h4 a {
+.news-details h4 a,
+.deal h4 a {
     font-size: 1em;
     color:#000;
     text-decoration: none;
 }
 
-.news-details h4 a:hover{
+.news-details h4 a:hover,
+.deal h4 a:hover {
     color: #FF4422;
     text-decoration: underline;
 }
@@ -363,6 +365,14 @@ ul.add-margin{
     color: #555;
 }
 
+.latest-deals {
+    margin: 10% 2% 5% 2%;
+}
+
+.latest-deals h2 {
+    margin: 0;
+}
+
 .deal {
     display: flex;
     margin-top: 2%;
@@ -374,4 +384,23 @@ ul.add-margin{
     width: 20%;
     height: 5.5em;
     margin-right: 1%;
+}
+
+.deal > div {
+    width: 80%;
+}
+
+.deal ul {
+    display: flex;
+    font-size: .83em;
+    margin-top: 2%;
+}
+
+.deal li {
+    margin-right: 2%;
+}
+
+.deal li span {
+    color: rgba(0, 0, 0, 0.6);
+    text-decoration: line-through;
 }
