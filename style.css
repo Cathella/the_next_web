@@ -1,151 +1,140 @@
 * {
     padding: 0;
     margin: 0;
-    font-family: 'Work Sans', sans-serif;
     overflow-x: hidden;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Sen', sans-serif;
+}
+
+body,
+ul {
+    font-family: 'Roboto', sans-serif;
+}
+
 .big-article {
-    background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/government-uk-regulations-e-scooter-escooter-e-scooter-bike-rideshare-last-mile-796x448.jpg);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/government-uk-regulations-e-scooter-escooter-e-scooter-bike-rideshare-last-mile-796x448.jpg);
     background-size: cover;
     background-position: 0 50%;
-    padding: 10% 1% 1% 2.5%;
+    padding: 12% 1% 1% 2.5%;
     color: #fff;
     margin: 0 2% 2% 2%;
-
 }
 
 .big-article p {
     text-transform: uppercase;
+    font-size: .8em;
+    font-weight: bold;
+    margin-bottom: 1%;
 }
 
-.big-article h1 {
+.big-article h1,
+.second-article h2,
+.third-article h2 {
     font-size: 1.3em;
+    margin-bottom: 1%;
 }
 
-.big-article ul {
-    display: flex;
-    align-items: center;
-    font-size: 14px;
-    font-family: 'ARS Maquette','Helvetica Neue';
-    color: rgba(255, 255,255, 0.6);
-      
-}
-
-.big-article ul a{
-    font-family: 'ARS Maquette','Helvetica Neue';
-    color: rgba(255, 255,255, 0.6);
-    text-decoration: none;
-
-}
-
-.big-article li {
-    list-style: none;
-    margin-right: 2%;
-}
-
-.second-article{
-    
-    background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/iPad-Pro-796x418.jpg) no-repeat;
-    background-size: cover;
-    background-position: 0 50%;
-    padding: 17% 1% 1% 2.5%;
-    color: #fff;
-    opacity: 0.9;
-    margin: 2% 2% 2% 2%;
-}
-
-.second-article ul {
-    display: flex;
-    align-items: center;
-    font-size: 14px;
-    font-family: 'ARS Maquette','Helvetica Neue';
-    color: rgba(255, 255,255, 0.6);
-}
-
-.second-article ul a{
-    font-family: 'ARS Maquette','Helvetica Neue';
-    color: rgba(255, 255,255, 0.6);
-    text-decoration: none;
-}
-
-.second-article li {
-    list-style: none;
-    margin-right: 2%;
-}
-
-
-.second-article p a{
-    text-transform: uppercase;
-    margin-top: 1em;
-    color: #fff;
-    text-decoration: none;   
-    
-}
-
-.second-article h2 {
-    font-size: 1.3em; 
-}
-
-.third-article{
-    background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/waymo-self-driving-america-sad-concerned-worried-dont-like-aaa-survey-796x448.jpg);
-    background-size: cover;
-    background-position: 0 50%;
-    padding: 14% 1% 1% 2.5%;
-    color: #fff;
-    margin: 2% 2% 2% 2%;
-    
-    
-}
-
+.big-article ul,
+.second-article ul,
 .third-article ul {
     display: flex;
     align-items: center;
-    font-size: 14px;
-    font-family: 'ARS Maquette','Helvetica Neue';
     color: rgba(255, 255,255, 0.6);
+    font-size: .8em;
+    margin-bottom: 1%;  
 }
 
-.third-article ul a{
-    font-family: 'ARS Maquette','Helvetica Neue';
+.big-article ul a,
+.second-article ul a,
+.third-article ul a {
     color: rgba(255, 255,255, 0.6);
     text-decoration: none;
 }
 
+.big-article li,
+.second-article li,
 .third-article li {
     list-style: none;
     margin-right: 2%;
 }
 
-
-.third-article p a{
-    text-transform: uppercase;
-    margin-top: 1em;
+.second-article {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/iPad-Pro-796x418.jpg) no-repeat;
+    background-size: cover;
+    background-position: 0 50%;
+    padding: 12% 1% 1% 2.5%;
     color: #fff;
-    text-decoration: none;   
-    
+    margin: 0 2% 2% 2%;
 }
 
-.third-article h2 {
-    font-size: 1.3em;
-    
+.second-article p a,
+.third-article p a {
+    text-transform: uppercase;
+    margin-bottom: 1em;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;   
+}
+
+.third-article {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/waymo-self-driving-america-sad-concerned-worried-dont-like-aaa-survey-796x448.jpg);
+    background-size: cover;
+    background-position: 0 50%;
+    padding: 12% 1% 1% 2.5%;
+    color: #fff;
+    margin: 0% 2% 2% 2%; 
+}
+
+.latest-news,
+.latest-deals {
+    margin-top: 12%;
+}
+
+.latest-news h2,
+.latest-other h2,
+.funding-nav h2,
+.latest-deals h2 {
+    text-decoration: none;
+    margin: 0 0 0 2% ;
+    letter-spacing: -0.06em;
+    font-weight: 800;
 }
 
 .latest-news h2 a,
-.latest-other h2 a {
+.latest-other h2 a,
+.funding-nav h2 a,
+.latest-deals h2 a {
     color: #f42;
-    font-size: 28px;
+    font-size: 1.3em;
     text-decoration: none;
-    margin:0 0 0 2% ;
 }
 
-.latest-news h2 a:hover{
+.latest-news h2 a:hover,
+.latest-other h2 a:hover, 
+.funding-nav h2 a:hover,
+.latest-deals h2 a:hover {
     color: #000;
+}
+
+.latest-news h2 i,
+.funding-nav h2 i,
+.latest-other h2 i,
+.latest-deals h2 i {
+    font-size: .5em;
 }
 
 .latest-news .news-elements{
     display: flex;
+}
 
+.latest-other section {
+    margin-bottom: 4%;
 }
 
 ul.add-margin{
@@ -158,23 +147,34 @@ ul.add-margin{
     width: 5em;
     height:5em;
     margin: 2% 0 2% 2%;
+<<<<<<< HEAD
     box-sizing: border-box;
     
 }
 
+=======
+}
+
+.latest-image img {
+    width:100%; 
+    height:70px;
+
+}
+>>>>>>> 40fd425edb10684ac3b3668351cfc2ccac73942f
 
 .news-details{
     margin: 2% 0 0 2%;
 }
 
-.news-details h4 a{
+.news-details h4 a,
+.deal h4 a {
     font-size: 1em;
-    font-family: 'ARS Maquette','Helvetica Neue';
     color:#000;
     text-decoration: none;
 }
 
-.news-details h4 a:hover{
+.news-details h4 a:hover,
+.deal h4 a:hover {
     color: #FF4422;
     text-decoration: underline;
 }
@@ -184,31 +184,19 @@ ul.add-margin{
     margin-top: 5px;
 }
 
-.news-details ul li{
+.news-details ul li,
+.news-details li a {
     font-size: 12px;
-    color: #AAA;
-    font-family: 'ARS Maquette','Helvetica Neue';
-    margin-right: 3px;
+    color: #aaa;
+    margin-right: 1%;
 }
 
-.news-details li a{
-    font-size: 12px;
-    color: #AAA;
-    font-family: 'ARS Maquette','Helvetica Neue';
+.news-details li a {
     text-decoration: none;
 }
 
-.funding-nav i{
-    margin: 3% 0 0 2%;
-    font-size: 20px;
-    
-}
-
-.funding-nav h2 a{
-    color: #f42;
-    font-size: 28px;
-    text-decoration: none;
-    margin:0 0 0 2% ;
+.funding-nav {
+    margin-top: 5%;
 }
 
 .funding-info{
@@ -256,21 +244,21 @@ ul.add-margin{
     padding: 0.7em 1em 0.7em 5.3em;
 }
 
-.fund-data{
+.fund-data {
     background-color:#FFFAF8; 
-    padding: 18px 15px 22px 15px;
-    border-bottom: 2px solid#FFEBE8;
+    padding: 3% 1% 2% 3%;
+    border-bottom: 1px solid #ffcdc2;
 }
 
-.fund-amount .p1{
-    font-size: 18px;
+.fund-amount .p1 {
+    font-size: 1.1em;
     color: #000;
+    font-weight: bolder;
 }
 
-.fund-amount .p2{
-    font-size: 11px;
-    font-family: 'shentox','sans-serif';
-    color: #000;
+.fund-amount .p2 {
+    font-size: .7em;
+    color: rgba(0, 0, 0, 0.6);
 }
 
 .investment{
@@ -278,22 +266,19 @@ ul.add-margin{
     padding: 8px 15px 8px 15px;
 }
 
-.investment p{
-    font-size-adjust: 12px;
-    color: #555;
-}
 .investment span{
-    color: #AAA;
+    color: #aaa;
 }
 
-.fund-data p{
-    font-size: 13px;
+.fund-data p,
+.investment p {
+    font-size: .88em;
     color: #555;
-    padding-bottom: 5px;
+    margin-bottom: 1.5%;
 }
 
 .fund-data i {
-    margin-right: 5px;
+    margin-right: 2%;
 }
 
 .latest-other {
@@ -304,14 +289,10 @@ ul.add-margin{
     margin: 2% 5% 2% 0%;;
 }
 
-.latest-other h2 i {
-    font-size: .6em;
-}
-
 .article-1-list {
     position: relative;
     padding: 40% 4% 4% 4%;
-    background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/02/bill-gates-368x276.jpg);
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/02/bill-gates-368x276.jpg);
     background-size: cover;
     width: 100%;
 }
@@ -328,7 +309,7 @@ ul.add-margin{
 }
 
 .article-1-list h3 {
-    margin-bottom: 2%;
+    margin: 2% 4% 2% 0;
 }
 
 .article-1-list h3 a {
@@ -386,10 +367,104 @@ ul.add-margin{
 .list-normal {
     border-bottom: 1px solid #eee;
     padding: 2%;
-    font-size: .9em;
+    font-size: .83em;
 }
 
 .list-normal a {
     text-decoration: none;
     color: #555;
+}
+
+.latest-deals {
+    margin: 10% 2% 5% 2%;
+}
+
+.latest-deals h2 {
+    margin: 0;
+}
+
+.deal {
+    display: flex;
+    margin-top: 2%;
+}
+
+.deal > a {
+    background: url(https://cdnp3.stackassets.com/f54c9185d68a19989ac1618bb5f955852e40ea0e/store/988cf18b55dc05a3eca624beef4de98a661b6f75463223a0c57759f988b1/sale_23318_primary_image.jpg);
+    background-size: cover;
+    width: 20%;
+    height: 5.5em;
+    margin-right: 1%;
+}
+
+.deal > div {
+    width: 80%;
+}
+
+.deal ul {
+    display: flex;
+    font-size: .83em;
+    margin-top: 2%;
+}
+
+.deal li {
+    margin-right: 2%;
+}
+
+.deal li span {
+    color: rgba(0, 0, 0, 0.6);
+    text-decoration: line-through;
+}
+
+footer {
+    text-align: center;
+    margin-top: 7%;
+}
+
+.top-footer {
+    background-color: #131313;
+    padding-bottom: 7%;
+}
+
+.bottom-footer {
+    background-color: #000;
+    color: rgba(255, 255,255, 0.6);
+}
+
+.social {
+    display: flex;
+    list-style: none;
+    width: 60%;
+    margin: 5% auto;
+}
+
+.social li {
+    background: rgba(255, 255,255, 0.2);
+    margin: 1%;
+    width: 41px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 28px;
+}
+
+.social a {
+    color: #fff;
+}
+
+.sub-social {
+    display: flex;
+    list-style: none;
+    width: 55%;
+    margin: 0 auto;
+}
+
+.sub-social li {
+    margin-left: 2%;
+    margin-right: 2%;
+    text-transform: uppercase;
+    font-size: .83em;
+}
+
+.sub-social a {
+    color: rgba(255, 255,255, 0.6);
+    text-decoration: none;
 }
