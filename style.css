@@ -12,49 +12,59 @@ h5 {
     font-family: 'Sen', sans-serif;
 }
 
-body {
-    font-family: 'Work Sans', sans-serif;
+body,
+ul {
+    font-family: 'Roboto', sans-serif;
 }
 
 .big-article {
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/government-uk-regulations-e-scooter-escooter-e-scooter-bike-rideshare-last-mile-796x448.jpg);
     background-size: cover;
     background-position: 0 50%;
-    padding: 10% 1% 1% 2.5%;
+    padding: 12% 1% 1% 2.5%;
     color: #fff;
     margin: 0 2% 2% 2%;
 }
 
 .big-article p {
     text-transform: uppercase;
+    font-size: .8em;
+    font-weight: bold;
+    margin-bottom: 1%;
 }
 
-.big-article h1 {
+.big-article h1,
+.second-article h2,
+.third-article h2 {
     font-size: 1.3em;
+    margin-bottom: 1%;
 }
 
-.big-article ul {
+.big-article ul,
+.second-article ul,
+.third-article ul {
     display: flex;
     align-items: center;
-    font-size: 14px;
-    font-family: 'ARS Maquette','Helvetica Neue';
     color: rgba(255, 255,255, 0.6);
-      
+    font-size: .8em;
+    margin-bottom: 1%;  
 }
 
-.big-article ul a{
-    font-family: 'ARS Maquette','Helvetica Neue';
+.big-article ul a,
+.second-article ul a,
+.third-article ul a {
     color: rgba(255, 255,255, 0.6);
     text-decoration: none;
-
 }
 
-.big-article li {
+.big-article li,
+.second-article li,
+.third-article li {
     list-style: none;
     margin-right: 2%;
 }
 
-.second-article{
+.second-article {
     background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/iPad-Pro-796x418.jpg) no-repeat;
     background-size: cover;
     background-position: 0 50%;
@@ -63,39 +73,14 @@ body {
     margin: 0 2% 2% 2%;
 }
 
-.second-article ul {
-    display: flex;
-    align-items: center;
-    font-size: 14px;
-    font-family: 'ARS Maquette','Helvetica Neue';
-    color: rgba(255, 255,255, 0.6);
-}
-
-.second-article ul a{
-    font-family: 'ARS Maquette','Helvetica Neue';
-    color: rgba(255, 255,255, 0.6);
-    text-decoration: none;
-}
-
-.second-article li {
-    list-style: none;
-    margin-right: 2%;
-}
-
-
-.second-article p a{
+.second-article p a {
     text-transform: uppercase;
-    margin-top: 1em;
+    margin-bottom: 1em;
     color: #fff;
     text-decoration: none;   
-    
 }
 
-.second-article h2 {
-    font-size: 1.3em; 
-}
-
-.third-article{
+.third-article {
     background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/waymo-self-driving-america-sad-concerned-worried-dont-like-aaa-survey-796x448.jpg);
     background-size: cover;
     background-position: 0 50%;
@@ -104,37 +89,23 @@ body {
     margin: 0% 2% 2% 2%; 
 }
 
-.third-article ul {
-    display: flex;
-    align-items: center;
-    font-size: 14px;
-    font-family: 'ARS Maquette','Helvetica Neue';
-    color: rgba(255, 255,255, 0.6);
-}
 
-.third-article ul a{
-    font-family: 'ARS Maquette','Helvetica Neue';
-    color: rgba(255, 255,255, 0.6);
-    text-decoration: none;
-}
-
-.third-article li {
-    list-style: none;
-    margin-right: 2%;
-}
-
-
-.third-article p a{
+.third-article p a {
     text-transform: uppercase;
-    margin-top: 1em;
+    margin-bottom: 1em;
     color: #fff;
     text-decoration: none;   
-    
+    font-size: .8em;
+    font-weight: bold;
 }
 
 .third-article h2 {
     font-size: 1.3em;
     
+}
+
+.latest-news {
+    margin-top: 12%;
 }
 
 .latest-news h2 a,
