@@ -560,4 +560,83 @@ footer {
         margin-bottom: 3%;
     }
 
+    .latest-news {
+        margin-top: 7%;
+    }
+
+    .latest-other {
+        margin: 5% 2% 0 2%;
+    }
+
+    .latest-deals {
+        margin: 6% 2% 2% 2%;
+    }
+
+    .top-footer {
+        padding-bottom: 4%;
+    }
+
+    .social {
+        width: 44%;
+        margin: 3% auto 4% auto;
+    }
+
+    .sub-social {
+        width: 37%;
+    }
+
+    .bottom-footer li {
+        display: inline-block;
+    }
+
+    .bottom-footer ul {
+        margin: 3% auto;
+        width: 100%;
+    }
+
+}
+
+@media (min-width: 1024px) {
+    .latest-other > section {
+        width: 31%;
+    }
+
+    .latest-deals ul > li,
+    .funding-elements,
+    .news-elements {
+        width: 23%;
+    }
+
+    #fund-2 {
+        display: block
+    }
+
+    .latest-news {
+        margin-top: 7%;
+    }
+
+    .latest-other {
+        margin: 5% 2% 0 2%;
+    }
+
+    .latest-deals {
+        margin: 6% 2% 2% 2%;
+    }
+
+    .top-footer {
+        padding-bottom: 4%;
+    }
+
+    .social {
+        width: 33%;
+        margin: 3% auto 4% auto;
+    }
+
+    .sub-social {
+        width: 28%;
+    }
+
+    .bottom-footer ul {
+        margin: 3% auto;
+    }
 }
