@@ -536,6 +536,12 @@ footer {
         letter-spacing: -0.1em;
     }
 
+    .question-link {
+        padding-top: 7px;
+        padding-bottom: 7px;
+        margin-bottom: 1px;
+    }
+
     .big-article p {
         margin-top: 15%;
     }
@@ -665,6 +671,26 @@ footer {
 }
 
 @media (min-width: 1024px) {
+
+    .big-article h1 {
+        font-size: 3.2em;
+    }
+
+    .logo-time {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+
+    .logo-time > div {
+        width: 55%;
+    }
+
+    .second-article h2,
+    .third-article h2 {
+        font-size: 1.7em;
+    }
+
     .latest-other > section {
         width: 31%;
     }
