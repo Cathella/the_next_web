@@ -494,7 +494,7 @@ footer {
 .bottom-footer li {
     margin-top: 1em;
 }
-/*
+
 @media (min-width: 768px) {
     .featured-articles,
     .add-margin,
@@ -560,8 +560,8 @@ footer {
     }
 
 }
-*/
-@media (min-width:768px) and (max-width:800px){
+/*
+@media (min-width:768px) and (max-width:1400px){
     .featured-articles{
         display: grid;
         grid-template-areas:
@@ -683,3 +683,4 @@ footer {
     }
 
 }
+*/
