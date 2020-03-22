@@ -14,38 +14,62 @@
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="#">News</a></li>
-                <li><a href="#">TNW2020</a></li>
-                <li><a href="#">Business</a></li>
-                <li><a href="#">AMAs</a></li>
-                <li><a href="#">Spaces</a></li>
-                <li><a href="#">Terms & Conditions</a></li>
-            </ul>
-
-            <ul>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Advertise</a></li>
-                <li><a href="#">Jobs</a></li>
-                <li><a href="#">Contract</a></li>
-            </ul>
-        </nav>
-
-        <nav>
-            <ul>
-                <li><a href="#">Latest</a></li>
-                <li><a href="#">Hard fork</a></li>
-                <li><a href="#">Plugged</a></li>
-                <li><a href="#">Fundamentals</a></li>
-                <li><a href="#">Readme</a></li>
-                <li><a href="#">Growth Quarters</a></li>
-                <li><a href="#">Neural</a></li>
-            </ul>
-
+        <div class="tab--768">
             <a href="#">
-                <i class="fas fa-search"></i>
+                <img alt="The Next Web" src="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg">
             </a>
+            <div>
+                <nav class="idk">
+                    <ul>
+                        <li><a href="#">News</a></li>
+                        <li><a href="#">TNW2020</a></li>
+                        <li><a href="#">Business</a></li>
+                        <li><a href="#">AMAs</a></li>
+                        <li><a href="#">Spaces</a></li>
+                        <li><a href="#">Terms&nbsp;&&nbsp;Conditions</a></li>
+                    </ul>
+        
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Advertise</a></li>
+                        <li><a href="#">Jobs</a></li>
+                        <li><a href="#">Contract</a></li>
+                    </ul>
+                </nav>
+        
+                <nav class="idk2">
+                    <ul>
+                        <li><a href="#">Latest</a></li>
+                        <li><a href="#">Hard&nbsp;fork</a></li>
+                        <li><a href="#">Plugged</a></li>
+                        <li><a href="#">Fundamentals</a></li>
+                        <li><a href="#">Readme</a></li>
+                        <!-- <li><a href="#">Growth Quarters</a></li> -->
+                        <!-- <li><a href="#">Neural</a></li> -->
+                    </ul>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <i class="fas fa-search"></i>
+                            </a>
+                        </li>
+                    </ul> 
+                </nav>
+            </div>
+        </div>
+
+        <nav class="mobile--768">
+            <a href="#">
+                <img alt="The Next Web" src="https://cdn0.tnwcdn.com/wp-content/themes/cyberdelia/assets/img/tnw.svg">
+            </a>
+            <ul>
+                <li>
+                    <a href="#"><i class="fas fa-search"></i></a>
+                </li>
+                <li>
+                    <a class="menu-icon-mob" href="#"><i class="fas fa-bars"></i></a>
+                </li>
+            </ul>
         </nav>
 
         <p class="question-link">
@@ -225,9 +249,9 @@
                 </div>
                 
                 <ul class="funding-info">   
-                       <li><a href="">See more</a></li>
-                       <li><a href="">Get updates by email</a></li>
-                       <li><a href="">add info</a></li>       
+                    <li class="no-padding"><a href="">Add info</a></li>
+                    <li><a href="">Get updates by email</a></li>
+                    <li class="no-right-border"><a href="">See more</a></li>       
                 </ul>   
             </div>
             <div id="funds">
@@ -241,9 +265,8 @@
                         <p class="p2">SEED FUND</p>
                     </div>
                     <div class="fund-data">
-                        <p><i class="fas fa-tag"></i>Data Architecture</p>
-                        <p><i class="fas fa-briefcase"></i>Revolution</p>
-
+                        <p><i class="fas fa-tag"></i><span>Data Architecture</span></p>
+                        <p><i class="fas fa-briefcase"></i><span>Revolution</span></p>
                     </div>
                     <div class="investment">
                         <p>
@@ -255,15 +278,15 @@
                 <div id="fund-2" class="funding-elements">
                     <img src="https://img-cdn.tnwcdn.com/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1113808641143070723%2FdMx05PZe.png&signature=5bc4ae8d7c79193090f1dee196f016e0" alt="siligon">
                     <div class="company-name">
-                        <h3>Siligon Therapeutics</h3>
+                        <h3>Siligon</h3>
                     </div>
                     <div class="fund-amount">
                         <p class="p1">$80.3M</p>
                         <p class="p2">SERIEs B</p>
                     </div>
                     <div class="fund-data">
-                        <p><i class="fas fa-tag"></i>Biotechnology</p>
-                        <p><i class="fas fa-briefcase"></i>Eli Lilly and Company,+3</p>
+                        <p><i class="fas fa-tag"></i><span>Biotechnology</span></p>
+                        <p><i class="fas fa-briefcase"></i><span>Eli Lilly and Company, +3</span></p>
 
                     </div>
                     <div class="investment">
@@ -282,8 +305,8 @@
                         <p class="p2">SERIES A</p>
                     </div>
                     <div class="fund-data">
-                        <p><i class="fas fa-tag"></i>Financial Services, +3</p>
-                        <p><i class="fas fa-briefcase"></i>HV Holtzbrinck Ventures, +4</p>
+                        <p><i class="fas fa-tag"></i><span>Financial Services, +3</span></p>
+                        <p><i class="fas fa-briefcase"></i><span>HV Holtzbrinck Ventures, +4</span></p>
 
                     </div>
                     <div class="investment">
@@ -302,14 +325,13 @@
                         <p class="p2">VENTURE CAPITAL</p>
                     </div>
                     <div class="fund-data">
-                        <p><i class="fas fa-tag"></i>Collaboration, +3</p>
-                        <p><i class="fas fa-briefcase"></i>Par Equity</p>
+                        <p><i class="fas fa-tag"></i><span>Collaboration, +3</span></p>
+                        <p><i class="fas fa-briefcase"></i><span>Par Equity</span></p>
                     </div>
                     <div class="investment">
                         <p>
                             Swipii Raises &pound;1M in Funding <span>on FinSMEs</span>
-                        </p>
-                        
+                        </p>    
                     </div>
                 </div>
             </div>
