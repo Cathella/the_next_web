@@ -68,7 +68,7 @@ ul {
 }
 
 .big-article {
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/government-uk-regulations-e-scooter-escooter-e-scooter-bike-rideshare-last-mile-796x448.jpg);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/1-16-796x417.jpg);
     background-size: cover;
     background-position: 0 50%;
     padding: 12% 1% 1% 2.5%;
@@ -115,7 +115,7 @@ ul {
 }
 
 .second-article {
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/iPad-Pro-796x418.jpg) no-repeat;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/1-15-796x417.jpg) no-repeat;
     background-size: cover;
     background-position: 0 50%;
     padding: 12% 1% 1% 2.5%;
@@ -133,7 +133,7 @@ ul {
 }
 
 .third-article {
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/waymo-self-driving-america-sad-concerned-worried-dont-like-aaa-survey-796x448.jpg);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Copy-of-...-15-796x417.png);
     background-size: cover;
     background-position: 0 50%;
     padding: 12% 1% 1% 2.5%;
@@ -184,8 +184,39 @@ ul {
     margin-top: 2%;
 }
 
+.news-elements > a#image-show-1 {
+    background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/ptl-newsletter-hed-516x270.png);
+}
+
+.news-elements > a#image-show-2 {
+    background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/sale_26720_primary_image_wide-540x270.jpg);
+}
+
+.news-elements > a#image-show-3 {
+    background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/jb1aVSU-540x270.jpg);
+}
+
+.news-elements > a#image-show-4 {
+    background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/sale_26800_primary_image_wide-540x270.jpg);
+}
+
+.news-elements > a#image-show-5 {
+    background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/1-14-516x270.jpg);
+}
+
+.news-elements > a#image-show-6 {
+    background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Google-coronavirus-portal-513x270.jpg);
+}
+
+.news-elements > a#image-show-7 {
+    background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/streaming-platforms_money-506x270.png);
+}
+
+.news-elements > a#image-show-8 {
+    background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/01/Google-IO-540x270.jpg);
+}
+
 .news-elements > a {
-    background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Coronavirus-516x270.jpg);
     background-size: 100% 100%;
     background-position: center center;
     width: 20%;
@@ -719,7 +750,14 @@ footer {
          margin: 1%;
      }
  
-     .news-elements > a,
+     .news-elements > a#image-show-1,
+     .news-elements > a#image-show-2,
+     .news-elements > a#image-show-3,
+     .news-elements > a#image-show-4,
+     .news-elements > a#image-show-5,
+     .news-elements > a#image-show-6,
+     .news-elements > a#image-show-7,
+     .news-elements > a#image-show-8,
      .deal > a {
          width: 100%;
          margin-right: 0;
