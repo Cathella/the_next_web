@@ -366,8 +366,8 @@ ul.add-margin{
 
 .article-1-list {
     position: relative;
-    padding: 40% 4% 4% 4%;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/02/bill-gates-368x276.jpg);
+    padding: 35% 4% 4% 4%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/Amazon-Dating-Featured-368x276.jpg);
     background-size: cover;
     width: 100%;
 }
@@ -381,6 +381,7 @@ ul.add-margin{
     text-transform: uppercase;
     margin-bottom: 1.5%;
     font-size: .8em;
+    
 }
 
 .article-1-list h3 {
@@ -408,6 +409,320 @@ ul.add-margin{
     text-decoration: none;
 }
 
+.article-1b-list {
+    position: relative;
+    padding: 40% 4% 4% 4%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/ptl-newsletter-hed-368x276.png);
+    background-size: cover;
+    width: 100%;
+}
+
+.article-1b-list article {
+    bottom: 0;
+    color: #fff;
+}
+
+.article-1b-list p {
+    text-transform: uppercase;
+    margin-bottom: 1.5%;
+    font-size: .8em;
+}
+
+.article-1b-list h3 {
+    margin: 2% 4% 2% 0;
+}
+
+.article-1b-list h3 a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.article-1b-list ul {
+    display: flex;
+    align-items: center;
+}
+
+.article-1b-list li {
+    margin-right: 1%;
+    font-size: .8em;
+    color: rgba(255, 255,255, 0.6);
+}
+
+.article-1b-list li a {
+    color: rgba(255, 255,255, 0.6);
+    text-decoration: none;
+}
+
+.article-2-list article {
+    display: flex;
+    background: #fff4f2;
+}
+
+.article-1c-list {
+    position: relative;
+    padding: 40% 4% 4% 4%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/WHO-COvid-368x276.jpg);
+    background-size: cover;
+    width: 100%;
+}
+
+.article-1c-list article {
+    bottom: 0;
+    color: #fff;
+}
+
+.article-1c-list p {
+    text-transform: uppercase;
+    margin-bottom: 1.5%;
+    font-size: .8em;
+}
+
+.article-1c-list h3 {
+    margin: 2% 4% 2% 0;
+}
+
+.article-1c-list h3 a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.article-1c-list ul {
+    display: flex;
+    align-items: center;
+}
+
+.article-1c-list li {
+    margin-right: 1%;
+    font-size: .8em;
+    color: rgba(255, 255,255, 0.6);
+}
+
+.article-1c-list li a {
+    color: rgba(255, 255,255, 0.6);
+    text-decoration: none;
+}
+
+.article-1d-list {
+    position: relative;
+    padding: 40% 4% 4% 4%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/HEADER-IMAGE-oneplus-new-logo-368x276.png);
+    background-size: cover;
+    width: 100%;
+}
+
+.article-1d-list article {
+    bottom: 0;
+    color: #fff;
+}
+
+.article-1d-list p {
+    text-transform: uppercase;
+    margin-bottom: 1.5%;
+    font-size: .8em;
+}
+
+.article-1d-list h3 {
+    margin: 2% 4% 2% 0;
+}
+
+.article-1d-list h3 a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.article-1d-list ul {
+    display: flex;
+    align-items: center;
+}
+
+.article-1d-list li {
+    margin-right: 1%;
+    font-size: .8em;
+    color: rgba(255, 255,255, 0.6);
+}
+
+.article-1d-list li a {
+    color: rgba(255, 255,255, 0.6);
+    text-decoration: none;
+}
+
+.article-1e-list {
+    position: relative;
+    padding: 40% 4% 4% 4%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/entrepreneur-368x276.png);
+    background-size: cover;
+    width: 100%;
+}
+
+.article-1e-list article {
+    bottom: 0;
+    color: #fff;
+}
+
+.article-1e-list p {
+    text-transform: uppercase;
+    margin-bottom: 1.5%;
+    font-size: .8em;
+}
+
+.article-1e-list h3 {
+    margin: 2% 4% 2% 0;
+}
+
+.article-1e-list h3 a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.article-1e-list ul {
+    display: flex;
+    align-items: center;
+}
+
+.article-1e-list li {
+    margin-right: 1%;
+    font-size: .8em;
+    color: rgba(255, 255,255, 0.6);
+}
+
+.article-1e-list li a {
+    color: rgba(255, 255,255, 0.6);
+    text-decoration: none;
+}
+
+.article-1f-list {
+    position: relative;
+    padding: 40% 4% 4% 4%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/hacker-368x276.png);
+    background-size: cover;
+    width: 100%;
+}
+
+.article-1f-list article {
+    bottom: 0;
+    color: #fff;
+}
+
+.article-1f-list p {
+    text-transform: uppercase;
+    margin-bottom: 1.5%;
+    font-size: .8em;
+}
+
+.article-1f-list h3 {
+    margin: 2% 4% 2% 0;
+}
+
+.article-1f-list h3 a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.article-1f-list ul {
+    display: flex;
+    align-items: center;
+}
+
+.article-1f-list li {
+    margin-right: 1%;
+    font-size: .8em;
+    color: rgba(255, 255,255, 0.6);
+}
+
+.article-1f-list li a {
+    color: rgba(255, 255,255, 0.6);
+    text-decoration: none;
+}
+
+.article-1g-list {
+    position: relative;
+    padding: 40% 4% 4% 4%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Google-coronavirus-portal-368x276.jpg);
+    background-size: cover;
+    width: 100%;
+}
+
+.article-1g-list article {
+    bottom: 0;
+    color: #fff;
+}
+
+.article-1g-list p {
+    text-transform: uppercase;
+    margin-bottom: 1.5%;
+    font-size: .8em;
+}
+
+.article-1g-list h3 {
+    margin: 2% 4% 2% 0;
+}
+
+.article-1g-list h3 a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.article-1g-list ul {
+    display: flex;
+    align-items: center;
+}
+
+.article-1g-list li {
+    margin-right: 1%;
+    font-size: .8em;
+    color: rgba(255, 255,255, 0.6);
+}
+
+.article-1g-list li a {
+    color: rgba(255, 255,255, 0.6);
+    text-decoration: none;
+}
+
+.article-1h-list {
+    position: relative;
+    padding: 35% 4% 4% 4%;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.9)), url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/streaming-platforms_money-368x276.png);
+    background-size: cover;
+    width: 100%;
+}
+
+.article-1h-list article {
+    bottom: 0;
+    color: #fff;
+}
+
+.article-1h-list p {
+    text-transform: uppercase;
+    margin-bottom: 1.5%;
+    font-size: 0.8em;
+}
+
+.article-1h-list h3 {
+    margin: 2% 4% 2% 0;
+}
+
+.article-1h-list h3 a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.article-1h-list ul {
+    display: flex;
+    align-items: center;
+}
+
+.article-1h-list li {
+    margin-right: 1%;
+    font-size: .8em;
+    color: rgba(255, 255,255, 0.6);
+}
+
+.article-1h-list li a {
+    color: rgba(255, 255,255, 0.6);
+    text-decoration: none;
+}
+
+
 .article-2-list article {
     display: flex;
     background: #fff4f2;
@@ -433,12 +748,53 @@ ul.add-margin{
     color: #f42;
 }
 
-#article-image {
-    background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/10/slack.jpg);
+#article-1-image {
+    background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/1-16.jpg);
     width: 25%;
     background-size: cover;
 }
 
+#article-2-image {
+    background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/01/GodfallTeaser04.png);
+    width: 25%;
+    background-size: cover;
+}
+
+#article-3-image {
+    background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Disney.jpg);
+    width: 25%;
+    background-size: cover;
+}
+
+#article-4-image {
+    background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Apples-new-MacBook-Air-header-image.png);
+    width: 25%;
+    background-size: cover;
+}
+
+#article-5-image {
+    background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/code-1076536_1920.jpg);
+    width: 25%;
+    background-size: cover;
+}
+
+#article-6-image {
+    background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/darktrace.png);
+    width: 25%;
+    background-size: cover;
+}
+
+#article-7-image {
+    background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/bubble-car-isetta-bmw-microlino-microletta-ev-car-new-announced.png);
+    width: 25%;
+    background-size: cover;
+}
+
+#article-8-image {
+    background: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Dinner.jpg);
+    width: 25%;
+    background-size: cover;
+}
 .list-normal {
     border-bottom: 1px solid #eee;
     padding: 2%;
