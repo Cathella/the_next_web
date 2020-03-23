@@ -249,6 +249,7 @@ ul.add-margin{
     font-size: 1em;
     color:#000;
     text-decoration: none;
+    letter-spacing: -0.05em;
 }
 
 .news-details h4 a:hover,
@@ -315,6 +316,7 @@ ul.add-margin{
 
 .company-name h3{
     color: #fff;
+    letter-spacing: -0.05em;
 }
 
 .fund-amount{
@@ -395,6 +397,7 @@ ul.add-margin{
 
 .article-1-list h3 {
     margin: 2% 4% 2% 0;
+    letter-spacing: -0.05em;
 }
 
 .article-1-list h3 a {
@@ -439,6 +442,7 @@ ul.add-margin{
 
 .article-1b-list h3 {
     margin: 2% 4% 2% 0;
+    letter-spacing: -0.05em;
 }
 
 .article-1b-list h3 a {
@@ -488,6 +492,7 @@ ul.add-margin{
 
 .article-1c-list h3 {
     margin: 2% 4% 2% 0;
+    letter-spacing: -0.05em;
 }
 
 .article-1c-list h3 a {
@@ -532,6 +537,7 @@ ul.add-margin{
 
 .article-1d-list h3 {
     margin: 2% 4% 2% 0;
+    letter-spacing: -0.05em;
 }
 
 .article-1d-list h3 a {
@@ -576,6 +582,7 @@ ul.add-margin{
 
 .article-1e-list h3 {
     margin: 2% 4% 2% 0;
+    letter-spacing: -0.05em;
 }
 
 .article-1e-list h3 a {
@@ -620,6 +627,7 @@ ul.add-margin{
 
 .article-1f-list h3 {
     margin: 2% 4% 2% 0;
+    letter-spacing: -0.05em;
 }
 
 .article-1f-list h3 a {
@@ -664,6 +672,7 @@ ul.add-margin{
 
 .article-1g-list h3 {
     margin: 2% 4% 2% 0;
+    letter-spacing: -0.05em;
 }
 
 .article-1g-list h3 a {
@@ -708,6 +717,7 @@ ul.add-margin{
 
 .article-1h-list h3 {
     margin: 2% 4% 2% 0;
+    letter-spacing: -0.05em;
 }
 
 .article-1h-list h3 a {
@@ -750,6 +760,7 @@ ul.add-margin{
 
 .article-2-list h4 {
     margin: 0 3% 6% 3%;
+    letter-spacing: -0.05em;
 }
 
 .article-2-list h4 a {
@@ -1128,6 +1139,8 @@ footer {
         padding-top: 7px;
         padding-bottom: 7px;
         margin-bottom: 1px;
+        text-align: left;
+        padding-left: 15%;
     }
 
     .big-article p {
@@ -1264,6 +1277,10 @@ footer {
 
     .tab--768 > a {
         display: none;
+    }
+
+    .question-link {
+        padding-left: 1%;
     }
 
     li#latest {
