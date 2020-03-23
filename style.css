@@ -141,41 +141,41 @@ ul {
     margin: 0% 2% 2% 2%; 
 }
 
-.latest-news,
-.latest-deals {
+.latest-deals,
+.latest-news {
     margin-top: 12%;
 }
 
-.latest-news h2,
 .latest-other h2,
 .funding-nav h2,
-.latest-deals h2 {
+.latest-deals h2,
+.latest-news h2 {
     text-decoration: none;
     margin: 0 0 0 2% ;
     letter-spacing: -0.06em;
     font-weight: 800;
 }
 
-.latest-news h2 a,
 .latest-other h2 a,
 .funding-nav h2 a,
-.latest-deals h2 a {
+.latest-deals h2 a,
+.latest-news h2 a {
     color: #f42;
     font-size: 1.3em;
     text-decoration: none;
 }
 
-.latest-news h2 a:hover,
 .latest-other h2 a:hover, 
 .funding-nav h2 a:hover,
-.latest-deals h2 a:hover {
+.latest-deals h2 a:hover,
+.latest-news h2 a:hover {
     color: #000;
 }
 
-.latest-news h2 i,
 .funding-nav h2 i,
 .latest-other h2 i,
-.latest-deals h2 i {
+.latest-deals h2 i,
+.latest-news h2 i {
     font-size: 0.5em;
 }
 
@@ -806,11 +806,13 @@ ul.add-margin{
     color: #555;
 }
 
-.latest-deals {
+.latest-deals,
+.latest-news {
     margin: 10% 2% 5% 2%;
 }
 
-.latest-deals h2 {
+.latest-deals h2,
+.latest-news h2 {
     margin: 0;
 }
 
@@ -1138,7 +1140,8 @@ footer {
      .add-margin,
      #funds,
      .latest-other,
-     .latest-deals ul {
+     .latest-deals ul,
+     .latest-news ul {
          display: flex;
      }
  
@@ -1146,6 +1149,7 @@ footer {
      #funds,
      .latest-other,
      .latest-deals ul,
+     .latest-news ul,
      .deal {
          flex-wrap: wrap;
      }
@@ -1160,7 +1164,8 @@ footer {
  
      .news-elements,
      .funding-elements,
-     .latest-deals ul > li {
+     .latest-deals ul > li,
+     .latest-news ul > li {
          width: 31%;
          flex-wrap: wrap;
          margin: 1% 1% 1.5% 1%;
@@ -1190,15 +1195,12 @@ footer {
          margin-bottom: 3%;
      }
  
-     .latest-news {
-         margin-top: 7%;
-     }
- 
      .latest-other {
          margin: 5% 2% 0 2%;
      }
  
-     .latest-deals {
+     .latest-deals,
+     .latest-news {
          margin: 6% 2% 2% 2%;
      }
  
@@ -1285,6 +1287,7 @@ footer {
     }
 
     .latest-deals ul > li,
+    .latest-news ul > li,
     .funding-elements,
     .news-elements {
         width: 23%;
@@ -1294,15 +1297,12 @@ footer {
         display: block
     }
 
-    .latest-news {
-        margin-top: 7%;
-    }
-
     .latest-other {
         margin: 5% 2% 0 2%;
     }
 
-    .latest-deals {
+    .latest-deals,
+    .latest-news {
         margin: 6% 2% 2% 2%;
     }
 
