@@ -184,35 +184,42 @@ ul {
     margin-top: 2%;
 }
 
-.news-elements > a#image-show-1 {
+.deal2 > a {
+    background-size: cover;
+    width: 20%;
+    height: 5.5em;
+    margin-right: 1%;
+}
+
+.deal2 > a#image-show-1 {
     background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/09/ptl-newsletter-hed-516x270.png);
 }
 
-.news-elements > a#image-show-2 {
+.deal2 > a#image-show-2 {
     background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/sale_26720_primary_image_wide-540x270.jpg);
 }
 
-.news-elements > a#image-show-3 {
+.deal2 > a#image-show-3 {
     background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/jb1aVSU-540x270.jpg);
 }
 
-.news-elements > a#image-show-4 {
+.deal2 > a#image-show-4 {
     background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/sale_26800_primary_image_wide-540x270.jpg);
 }
 
-.news-elements > a#image-show-5 {
+.deal2 > a#image-show-5 {
     background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/1-14-516x270.jpg);
 }
 
-.news-elements > a#image-show-6 {
+.deal2 > a#image-show-6 {
     background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/03/Google-coronavirus-portal-513x270.jpg);
 }
 
-.news-elements > a#image-show-7 {
+.deal2 > a#image-show-7 {
     background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2019/07/streaming-platforms_money-506x270.png);
 }
 
-.news-elements > a#image-show-8 {
+.deal2 > a#image-show-8 {
     background-image: url(https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2017/01/Google-IO-540x270.jpg);
 }
 
@@ -237,14 +244,16 @@ ul.add-margin{
 }
 
 .news-details h4 a,
-.deal h4 a {
+.deal h4 a,
+.deal2 h4 a {
     font-size: 1em;
     color:#000;
     text-decoration: none;
 }
 
 .news-details h4 a:hover,
-.deal h4 a:hover {
+.deal h4 a:hover,
+.deal2 h4 a:hover {
     color: #FF4422;
     text-decoration: underline;
 }
@@ -816,7 +825,8 @@ ul.add-margin{
     margin: 0;
 }
 
-.deal {
+.deal,
+.deal2 {
     display: flex;
     margin-top: 2%;
 }
@@ -885,7 +895,8 @@ ul.add-margin{
     margin-right: 1%;
 }
 
-.deal > div {
+.deal > div,
+.deal2 > div {
     width: 80%;
 }
 
@@ -904,7 +915,8 @@ ul.add-margin{
     text-decoration:line-through;
 }
 
-.deal li {
+.deal li,
+.deal2 li {
     margin-right: 2%;
 }
 
@@ -1150,7 +1162,8 @@ footer {
      .latest-other,
      .latest-deals ul,
      .latest-news ul,
-     .deal {
+     .deal,
+     .deal2 {
          flex-wrap: wrap;
      }
  
@@ -1176,21 +1189,15 @@ footer {
          margin: 1%;
      }
  
-     .news-elements > a#image-show-1,
-     .news-elements > a#image-show-2,
-     .news-elements > a#image-show-3,
-     .news-elements > a#image-show-4,
-     .news-elements > a#image-show-5,
-     .news-elements > a#image-show-6,
-     .news-elements > a#image-show-7,
-     .news-elements > a#image-show-8,
-     .deal > a {
+     .deal > a,
+     .deal2 > a {
          width: 100%;
          margin-right: 0;
          height: 8em;
      }
  
-     .deal > a {
+     .deal > a,
+     .deal2 > a {
          height: 10em;
          margin-bottom: 3%;
      }
