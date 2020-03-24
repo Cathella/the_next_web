@@ -1,4 +1,4 @@
-# The Next web
+# The Next Web
 
 ![screenshot](./TNW.jpg)
 
