@@ -305,6 +305,73 @@ ul {
   color: rgba(255, 255, 255, 0.6);
 }
 
+.article-1b-list li {
+    margin-right: 1%;
+    font-size: 0.8em;
+    color: rgba(255, 255, 255, 0.6);
+  }
+  
+  .article-1c-list li {
+    margin-right: 1%;
+    font-size: 0.8em;
+    color: rgba(255, 255, 255, 0.6);
+  }
+  
+  .article-1d-list li {
+    margin-right: 1%;
+    font-size: 0.8em;
+    color: rgba(255, 255, 255, 0.6);
+  }
+  
+  .article-1e-list li {
+    margin-right: 1%;
+    font-size: 0.8em;
+    color: rgba(255, 255, 255, 0.6);
+  }
+  
+  .article-1f-list li {
+    margin-right: 1%;
+    font-size: 0.8em;
+    color: rgba(255, 255, 255, 0.6);
+  }
+  
+  .article-1g-list li {
+    margin-right: 1%;
+    font-size: 0.8em;
+    color: rgba(255, 255, 255, 0.6);
+  }
+  
+  .article-1h-list li {
+    margin-right: 1%;
+    font-size: 0.8em;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.deal li,
+.deal2 li {
+  margin-right: 2%;
+}
+
+.social li {
+  background: rgba(255, 255, 255, 0.2);
+  margin: 1%;
+  width: 41px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 28px;
+}
+
+.sub-social li {
+  margin-left: 2%;
+  margin-right: 2%;
+  text-transform: uppercase;
+  font-size: 0.83em;
+}
+
+.bottom-footer li {
+  margin-top: 1em;
+}
+
 .news-details ul li,
 .news-details li a {
   font-size: 12px;
@@ -395,73 +462,6 @@ ul.add-margin {
 .news-details ul {
   display: flex;
   margin-top: 5px;
-}
-
-.article-1b-list li {
-  margin-right: 1%;
-  font-size: 0.8em;
-  color: rgba(255, 255, 255, 0.6);
-}
-
-.article-1c-list li {
-  margin-right: 1%;
-  font-size: 0.8em;
-  color: rgba(255, 255, 255, 0.6);
-}
-
-.article-1d-list li {
-  margin-right: 1%;
-  font-size: 0.8em;
-  color: rgba(255, 255, 255, 0.6);
-}
-
-.article-1e-list li {
-  margin-right: 1%;
-  font-size: 0.8em;
-  color: rgba(255, 255, 255, 0.6);
-}
-
-.article-1f-list li {
-  margin-right: 1%;
-  font-size: 0.8em;
-  color: rgba(255, 255, 255, 0.6);
-}
-
-.article-1g-list li {
-  margin-right: 1%;
-  font-size: 0.8em;
-  color: rgba(255, 255, 255, 0.6);
-}
-
-.article-1h-list li {
-  margin-right: 1%;
-  font-size: 0.8em;
-  color: rgba(255, 255, 255, 0.6);
-}
-
-.deal li,
-.deal2 li {
-  margin-right: 2%;
-}
-
-.social li {
-  background: rgba(255, 255, 255, 0.2);
-  margin: 1%;
-  width: 41px;
-  height: 40px;
-  line-height: 40px;
-  border-radius: 28px;
-}
-
-.sub-social li {
-  margin-left: 2%;
-  margin-right: 2%;
-  text-transform: uppercase;
-  font-size: 0.83em;
-}
-
-.bottom-footer li {
-  margin-top: 1em;
 }
 
 .funding-nav {
