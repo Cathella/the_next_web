@@ -357,8 +357,6 @@ ul {
 }
 
 .sub-social li {
-  margin-left: 2%;
-  margin-right: 2%;
   text-transform: uppercase;
   font-size: 0.83em;
 }
@@ -971,15 +969,16 @@ footer {
 .social {
   display: flex;
   list-style: none;
-  width: 60%;
+  width: 340px;
   margin: 5% auto;
 }
 
 .sub-social {
   display: flex;
   list-style: none;
-  width: 55%;
+  width: 300px;
   margin: 0 auto;
+  justify-content: space-between;
 }
 
 .bottom-footer ul {
@@ -1025,8 +1024,6 @@ footer {
 
   .idk ul {
     display: flex;
-
-    /* flex-wrap: wrap; */
     padding: 10px 5px;
   }
 
@@ -1094,8 +1091,6 @@ footer {
 
   .idk2 ul {
     display: flex;
-
-    /* margin-top: 3%; */
   }
 
   .idk2 a {
@@ -1217,15 +1212,6 @@ footer {
     padding-bottom: 4%;
   }
 
-  .social {
-    width: 44%;
-    margin: 3% auto 4% auto;
-  }
-
-  .sub-social {
-    width: 37%;
-  }
-
   .bottom-footer ul {
     margin: 3% auto;
     width: 100%;
@@ -1233,6 +1219,7 @@ footer {
 
   .funding-info {
     margin-top: 1%;
+    display: flex;
   }
 
   li.no-padding {
@@ -1313,15 +1300,6 @@ footer {
 
   .top-footer {
     padding-bottom: 4%;
-  }
-
-  .social {
-    width: 33%;
-    margin: 3% auto 4% auto;
-  }
-
-  .sub-social {
-    width: 28%;
   }
 
   .bottom-footer ul {
