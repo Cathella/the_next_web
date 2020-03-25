@@ -14,11 +14,11 @@ We started the project by first designing the mobile view of the home page using
 
 ### For devices with a viewport less than 1024px
 
-![screenshot](./TNW-tablet.jpg)
+![screenshot](./TNW-tablet.png)
 
 ### For devices with a viewport less than 768px
 
-![screenshot](./TNW-mobile.jpg)
+![screenshot](./TNW-mobile.png)
 
 Please checkout the live version of our project [here](https://raw.githack.com/Cathella/the_next_web/responsive/index.html)
 
