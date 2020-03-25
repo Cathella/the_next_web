@@ -2,11 +2,17 @@
 
 ![screenshot](./TNW.jpg)
 
-This project required that we replicate the new web website's home page considering how the page changes with as the device screen size increases or decreases.
+## Project Description
+
+This project required that we replicate [The next web](https://thenextweb.com/) website's home page as we put into consideration how the page display or content changes with as the device screen size increases or decreases.
 
 ## How it was Implemented
 
+We implemented the project using the mobile-first. This means first considering how you would like the website's content to appear on the mobile or smaller screens before all the others. This is a very effective responsive development method since all content will already be optimised for the mobile view.
+
 We started the project by first designing the mobile view of the home page using a break point of 768px and then continued to the break-point of 1024px that includes the tablet view and other screens larger than 1024px for the desktop view.
+
+Please checkout the live version of our project [here]()
 
 ## Built With
 
