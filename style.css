@@ -47,10 +47,10 @@ ul {
 }
 
 .question-link a {
-    color: #000;
-    font-size: 0.83em;
-    text-decoration: none;
-  }
+  color: #000;
+  font-size: 0.83em;
+  text-decoration: none;
+}
 
 .news-elements > a {
   background-size: 100% 100%;
@@ -72,6 +72,13 @@ ul {
 .sub-social a {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
+}
+
+.deal2 > a {
+  background-size: cover;
+  width: 20%;
+  height: 5.5em;
+  margin-right: 1%;
 }
 
 .mobile--768 li a {
@@ -277,6 +284,39 @@ ul {
   color: #f42;
 }
 
+.article-1g-list li a {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+
+.article-1h-list li a {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+
+.article-1e-list li a {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+
+.article-1-list li {
+  margin-right: 1%;
+  font-size: 0.8em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.news-details ul li,
+.news-details li a {
+  font-size: 12px;
+  color: #aaa;
+  margin-right: 1%;
+}
+
+.article-1-list li a {
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+
 .latest-other h2 a:hover,
 .funding-nav h2 a:hover,
 .latest-deals h2 a:hover,
@@ -299,13 +339,6 @@ ul {
 .news-elements {
   display: flex;
   margin-top: 2%;
-}
-
-.deal2 > a {
-  background-size: cover;
-  width: 20%;
-  height: 5.5em;
-  margin-right: 1%;
 }
 
 .deal2 > a#image-show-1 {
@@ -348,18 +381,8 @@ ul.add-margin {
   margin: 2%;
 }
 
-.article-1g-list li a {
-  color: rgba(255, 255, 255, 0.6);
-  text-decoration: none;
-}
-
 .news-details {
   margin: 2% 0 0 2%;
-}
-
-.article-1h-list li a {
-  color: rgba(255, 255, 255, 0.6);
-  text-decoration: none;
 }
 
 .news-details h4 a:hover,
@@ -396,11 +419,6 @@ ul.add-margin {
   margin-right: 1%;
   font-size: 0.8em;
   color: rgba(255, 255, 255, 0.6);
-}
-
-.article-1e-list li a {
-  color: rgba(255, 255, 255, 0.6);
-  text-decoration: none;
 }
 
 .article-1f-list li {
@@ -444,13 +462,6 @@ ul.add-margin {
 
 .bottom-footer li {
   margin-top: 1em;
-}
-
-.news-details ul li,
-.news-details li a {
-  font-size: 12px;
-  color: #aaa;
-  margin-right: 1%;
 }
 
 .funding-nav {
@@ -562,17 +573,6 @@ ul.add-margin {
 .article-1-list ul {
   display: flex;
   align-items: center;
-}
-
-.article-1-list li {
-  margin-right: 1%;
-  font-size: 0.8em;
-  color: rgba(255, 255, 255, 0.6);
-}
-
-.article-1-list li a {
-  color: rgba(255, 255, 255, 0.6);
-  text-decoration: none;
 }
 
 .article-1b-list {
@@ -1067,17 +1067,6 @@ footer {
     margin: 1% 1% 1.5% 1%;
   }
 
-  .bottom-footer li {
-    display: inline-block;
-  }
-
-  .funding-info li {
-    padding: 0;
-    display: inline-block;
-    border-right: 1px solid #f42;
-    padding-left: 2%;
-  }
-
   #bot-ul li {
     margin: 0 2%;
   }
@@ -1306,6 +1295,17 @@ footer {
 
   .latest-other > section {
     width: 31%;
+  }
+
+  .bottom-footer li {
+    display: inline-block;
+  }
+
+  .funding-info li {
+    padding: 0;
+    display: inline-block;
+    border-right: 1px solid #f42;
+    padding-left: 2%;
   }
 
   .latest-deals ul > li,
