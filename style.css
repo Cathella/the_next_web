@@ -206,6 +206,7 @@ ul {
   padding: 0.9em 0 0;
 }
 
+.deals-deals li a,
 .funding-info li a {
   margin: 0.7em 1.4em 0 0;
   color: #f42;
@@ -871,6 +872,13 @@ ul.add-margin {
   margin-top: 2%;
 }
 
+.deals-deals {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
 .img1 {
   background: url(https://cdnp3.stackassets.com/f54c9185d68a19989ac1618bb5f955852e40ea0e/store/988cf18b55dc05a3eca624beef4de98a661b6f75463223a0c57759f988b1/sale_23318_primary_image.jpg);
   background-size: cover;
@@ -1045,11 +1053,6 @@ footer {
     font-size: 0.83em;
   }
 
-  .funding-info li {
-    padding-left: 1%;
-    padding-right: 1.5%;
-  }
-
   .news-elements,
   .funding-elements,
   .latest-deals ul > li,
@@ -1057,6 +1060,10 @@ footer {
     width: 31%;
     flex-wrap: wrap;
     margin: 1% 1% 1.5% 1%;
+  }
+
+  .deals-deals ul li {
+    width: auto;
   }
 
   #bot-ul li {
@@ -1214,7 +1221,8 @@ footer {
 
   .bottom-footer ul {
     margin: 3% auto;
-    width: 100%;
+    width: 600px;
+    display: flex;
   }
 
   .funding-info {
@@ -1302,10 +1310,6 @@ footer {
     padding-bottom: 4%;
   }
 
-  .bottom-footer ul {
-    margin: 3% auto;
-  }
-
   .funding-nav h2 {
     display: inline-block;
   }
@@ -1328,5 +1332,8 @@ footer {
   .funding-info {
     margin: 0;
     width: 30%;
+    align-items: center;
+    justify-content: space-between;
+    margin-right: 2%;
   }
 }
