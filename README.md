@@ -12,7 +12,15 @@ We implemented the project using the mobile-first. This means first considering 
 
 We started the project by first designing the mobile view of the home page using a break point of 768px and then continued to the break-point of 1024px that includes the tablet view and other screens larger than 1024px for the desktop view.
 
-Please checkout the live version of our project [here]()
+### For devices with a viewport less than 1024px
+
+![screenshot](./TNW-tablet.jpg)
+
+### For devices with a viewport less than 768px
+
+![screenshot](./TNW-mobile.jpg)
+
+Please checkout the live version of our project [here](https://raw.githack.com/Cathella/the_next_web/responsive/index.html)
 
 ## Built With
 
